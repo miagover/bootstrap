@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <title>The Great British Baking Show</title>
         <meta charset = "utf-8">
     </head>
     <body>
-        <a href="https://thegreatbritishbakeoff.co.uk"><img src="logo.jpg" alt="Logo" id="logo"></a>
-        <ul>
-            <li class="navbar"><a href="index.html#2022">Bake Off 2022</a></li>
-            <li class="navbar"><a href="halloffame.html">Hall of Fame</a></li>
-            <li class="navbar"><a href="index.html#spinoffs">Spinoffs</a></li>
-        </ul>
-        <div>
-            <h1>The Great British Bake Off</h1>
-            <table id="banner">
-                <tr>
-                    <td class="other" id="banner-left"></td>
-                    <td class="other" id="banner-center"></td>
-                    <td class="other" id="banner-right"></td>
-                </tr>
-            </table>
-            <blockquote cite="https://www.netflix.com/title/80063224">A talented batch of amateur bakers face off in a 10-week 
-                competition, whipping up their best dishes in the hopes of being named the U.K.'s best. (Netflix)</blockquote>
-        </div>
-        <div>
-            <h2 id="2022">Bake Off 2022</h2>
-            <p>Bake Off 2022 will be released on Tuesday, September 13th at 8pm BST, on Netflix and Channel 4, and confirmed to be 
-                judged by Paul and Prue and hosted by Matt and Noel. The first teaser trailer  aired on Channel 4 on August 23rd. This trailer did not have any images of the 
-                constestants, just a faraway shot of the tent in the distance and a squirrel running across the countryside with 
-                the words, "Coming Soon". Filming for the season ran from April to August of 2022. This season features 12 bakers,
-                ranging from ages 18-60, with professions of all different varieties.</p>
-        </div>
-        <div>
-            <h2 id="spinoffs">Spinoffs</h2>
-            <ol>
-                <li>The Great British Baking Show: Holidays - <q>Deck the halls with sugar, butter and chocolate as competitors from past seasons bake sweet Yuletide treats for judges Paul Hollywood and Prue Leith.</q></li>
-                <br> <li>The Great British Baking Show: Masterclass - <q>After ten weeks of baking highs and lows, calm descends on the Baking Show tent as Mary and Paul take up the reins to make the signature, technical and showstopper challenges that they set for the bakers in each season.</q></li>
-                <br> <li>Junior Bake Off - <q>Britain's most talented young bakers wow judges with cakes, biscuits, breads and more in this kid-focused spinoff of 'The Great British Baking Show.'</q></li>
-                <br> <li>The Great Celebrity Bake Off for SU2C - <q>Celebrity bakers enter Britain's most famous tent and put their skills to the test, as they Stand Up To Cancer and inspire viewers to do the same.</q></li>
-            </ol>
-            <emph>There are many international spinoffs which have not been included for the sake of space.</emph>
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item"><a href="https://thegreatbritishbakeoff.co.uk" class="nav-link""><img src="logo.jpg" alt="Logo"></a></li>
+                <li class="nav-item"><a href="index.html#2022" class="nav-link">Bake Off 2022</a></li>
+                <li class="nav-item"><a href="halloffame.html" class="nav-link">Hall of Fame</a></li>
+                <li class="nav-item"><a href="index.html#spinoffs" class="nav-link">Spinoffs</a></li>
+            </ul>
+            <div>
+                <h1>The Great British Bake Off</h1>
+                <img class="col-4" src="bakers.jpg">
+                <img class="col-4" src="judges.jpg">
+                <img class="col-4" src="lastyear.jpg">
+                <blockquote cite="https://www.netflix.com/title/80063224">A talented batch of amateur bakers face off in a 10-week 
+                    competition, whipping up their best dishes in the hopes of being named the U.K.'s best. (Netflix)</blockquote>
+            </div>
+            <div id="2022">
+                <h2>Bake Off 2022</h2>
+                <p>Bake Off 2022 will be released on Tuesday, September 13th at 8pm BST, on Netflix and Channel 4, and confirmed to be 
+                    judged by Paul and Prue and hosted by Matt and Noel. The first teaser trailer  aired on Channel 4 on August 23rd. This trailer did not have any images of the 
+                    constestants, just a faraway shot of the tent in the distance and a squirrel running across the countryside with 
+                    the words, "Coming Soon". Filming for the season ran from April to August of 2022. This season features 12 bakers,
+                    ranging from ages 18-60, with professions of all different varieties.</p>
+            </div>
+            <div id="spinoffs">
+                <h2>Spinoffs</h2>
+                <ol>
+                    <li>The Great British Baking Show: Holidays - <q>Deck the halls with sugar, butter and chocolate as competitors from past seasons bake sweet Yuletide treats for judges Paul Hollywood and Prue Leith.</q></li>
+                    <br> <li>The Great British Baking Show: Masterclass - <q>After ten weeks of baking highs and lows, calm descends on the Baking Show tent as Mary and Paul take up the reins to make the signature, technical and showstopper challenges that they set for the bakers in each season.</q></li>
+                    <br> <li>Junior Bake Off - <q>Britain's most talented young bakers wow judges with cakes, biscuits, breads and more in this kid-focused spinoff of 'The Great British Baking Show.'</q></li>
+                    <br> <li>The Great Celebrity Bake Off for SU2C - <q>Celebrity bakers enter Britain's most famous tent and put their skills to the test, as they Stand Up To Cancer and inspire viewers to do the same.</q></li>
+                </ol>
+                <emph>There are many international spinoffs which have not been included for the sake of space.</emph>
+            </div>
         </div>
     </body>
 </html>
