@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 100px;
+}
+
+.navbar {
+    width: 10%;
+    background-color: #A3CCDC;
+    float: left;
+    padding: 20px;
+    font-size: 146%;
+}
+
+.navbar:hover {
+    background-color: #6790A0;
+}
+
+#logo {
+    max-width: 12.5%;
+    display: inline;
+    height: auto;
+    float: left;
+    object-fit: cover;
+    max-height: 5%;
+}
+
+h2 {
+    color: #A3CCDC;
+    font-size: 45px;
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+img:not(#logo) {
+    width: 50%;
+    min-height: 15%;
+}
+
+td:not(.other) {
+    background-color: #ecd4f4;
+}
+
+h1 {
+    background-color: #ecd4f4;
+    color: white;
+    font-size: 75px;
+    padding: 10px;
+}
+
+table {
+    height: 50%;
+    width: 70%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 33%;
+}
+
+emph {
+    font-size: 10px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    text-align: left;
+}
+
+#nav {
+    display: block;
+    border: 1px solid black;
+}
+
+p {
+    padding: 0px 2%;
+}
+
+#banner {
+    width: 100%;
+    height: 300px;
+}
+
+#banner-left {
+    background-image: url(bakers.jpg);
+    background-size: cover;
+}
+
+#banner-center {
+    background-image: url(judges.jpg);
+    background-size: cover;
+}
+
+#banner-right {
+    background-image: url(lastyear.jpg);
+    background-size: cover;
+}
